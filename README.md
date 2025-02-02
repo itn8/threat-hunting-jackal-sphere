@@ -199,6 +199,7 @@ chadwick.s is determined to be the required AccountName. (This is the answer for
   RequestProtocol - Protocol used 
   - Search for transfer-supporting protocols
   <br>
+  <br>
 
   After lack of success, the DeviceNetworkEvents table was additionally tried, but no specifics for file names or transfer sizes were listed in its columns. We can find a connection event for the target machine as seen below, but the InitiatingProcessAccount was deemed a network service. 
   <br>

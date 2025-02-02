@@ -88,7 +88,9 @@ DeviceLogonEvents
 ```
 
 <br>
+
 ![Screenshot 2025-02-01 at 11 00 41 PM](https://github.com/user-attachments/assets/641cc584-8911-4703-b1c3-8543b17e9e35)
+
 <br>
 
 This points to a device named corpnet-1-ny. (This is also the answer to the first hunt objective. Since the RemoteIP was obtained in the previous search, the attacker IP 102.37.140.95 is entered as the second objective. The RemoteIP can also be listed by projecting the column in the previous query. The next objective is to obtain a count of login attempts before the successful login. Since logins were also listed in a previous query in order to find a machine that fit brute force criteria, chadwicks is noted to have logged in 14 times before a success.)
@@ -117,7 +119,9 @@ DeviceLogonEvents
 ```
 
 <br>
+
 ![Screenshot 2025-02-01 at 11 22 42 PM](https://github.com/user-attachments/assets/1cb23959-62e1-4317-a81c-f7c4f77e76db)
+
 <br>
 
 chadwick.s is determined to be the required AccountName. (This is the answer for objective d.)

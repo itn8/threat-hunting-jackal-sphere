@@ -45,7 +45,7 @@ Once you’ve completed your hunt, present the “flag” to the community to cl
 
 ## Steps Taken
 
-1. Defender was chosen and narrowed to use an appropriate table. From the briefing, it’s known that credential stuffing may have been used, so investigating failed logins then then had a success is practical. Using DeviceLogonEvents, at least five failures are searched for before a success logged success to fit a basic brute force pattern.  
+1. Defender was chosen and narrowed to use an appropriate table. From the briefing, it’s known that credential stuffing may have been used, so investigating failed logins that then had a success is practical. Using DeviceLogonEvents, at least five failures are searched for before a success logged success to fit a basic brute force pattern.  
 
 A plain search of the DeviceLogonEvents table first can be used to show all columns in the table.
 ### Query used:
